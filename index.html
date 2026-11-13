@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chat Assistant</title>
+    <title>L’Oréal Beauty Advisor</title>
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -19,13 +19,22 @@
     <div class="page-wrapper">
       <!------- Header / Branding ------->
       <header class="site-header">
-        <h1 class="site-title">Smart Product Advisor</h1>
+        <img
+          class="brand-logo"
+          src="img/loreal-logo.png"
+          alt="L’Oréal Paris"
+        />
+        <p class="eyebrow">BEAUTY, SCIENCE, AND YOU</p>
+        <h1 class="site-title">L’Oréal Beauty Advisor</h1>
+        <p class="site-subtitle">
+          Discover products and routines made for your beauty goals.
+        </p>
       </header>
 
       <!------- Chat Area ------->
       <main>
         <section class="chatbox">
-          <div id="chatWindow" class="chat-window">
+          <div id="chatWindow" class="chat-window" aria-live="polite">
             <!-- messages will be appended here via JS -->
           </div>
 
@@ -49,7 +58,7 @@
 
       <!------- Footer Links ------->
       <footer class="site-footer">
-        <p>&copy; 2025 Company Name. All rights reserved.</p>
+        <p>&copy; 2025 L’Oréal Beauty Advisor.</p>
         <nav>
           <!-- These URLs are placeholders -->
           <a href="#">Privacy Policy</a>
